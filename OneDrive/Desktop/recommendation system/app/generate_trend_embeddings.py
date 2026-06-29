@@ -6,6 +6,7 @@ from PIL import Image
 from dotenv import load_dotenv
 from transformers import CLIPProcessor, CLIPModel
 from supabase import create_client
+# this is a very heavy code, don't touch!
 
 load_dotenv()
 
